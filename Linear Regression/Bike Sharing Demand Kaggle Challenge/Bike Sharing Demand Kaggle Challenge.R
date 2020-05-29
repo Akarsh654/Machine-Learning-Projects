@@ -1,4 +1,4 @@
-setwd('C:/Users/akars/Desktop/Studies/EXTRA/R')
+
 library(ggplot2)
 library(corrgram)
 library(corrplot)
