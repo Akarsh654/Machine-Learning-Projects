@@ -1,4 +1,4 @@
-setwd('C:/Users/akars/Desktop/Studies/EXTRA/R')
+
 library(Amelia)
 library(ggplot2)
 library(dplyr)
@@ -6,31 +6,31 @@ library(caTools)
 df_train <- read.csv("titanic_train.csv")
 
 # check for missing values (na)
-#print(missmap(df_train,main="Missing Map",col=c('yellow','black'),legend=F))
+print(missmap(df_train,main="Missing Map",col=c('yellow','black'),legend=F))
 # the missing map shows that there is a lot of missing data for ages
 
 # bar plot of survived vs not survived to get a rough idea
-#print(ggplot(df_train,aes(Survived))+geom_bar())
+print(ggplot(df_train,aes(Survived))+geom_bar())
 
 # bar plot based on Pclass 
-#print(ggplot(df_train,aes(Pclass))+geom_bar(aes(fill=factor(Pclass))))
+print(ggplot(df_train,aes(Pclass))+geom_bar(aes(fill=factor(Pclass))))
 
 # bar plot based on gender
-#print(ggplot(df_train,aes(Sex))+geom_bar(aes(fill=factor(Sex))))
+print(ggplot(df_train,aes(Sex))+geom_bar(aes(fill=factor(Sex))))
 
 # histogram based on ages of people
-#print(ggplot(df_train,aes(Age))+geom_histogram(bins=20,alpha=0.5,fill="blue"))
+print(ggplot(df_train,aes(Age))+geom_histogram(bins=20,alpha=0.5,fill="blue"))
 
 # bar plot based on siblings and spouses
-#print(ggplot(df_train,aes(SibSp)) + geom_bar())
+print(ggplot(df_train,aes(SibSp)) + geom_bar())
 
 # histogram based on fare 
-#print(ggplot(df_train,aes(Fare)) + geom_histogram(bins=10,fill="green",color="black",alpha=0.5))
+print(ggplot(df_train,aes(Fare)) + geom_histogram(bins=10,fill="green",color="black",alpha=0.5))
 
 # boxplot of Age vs Pclass
 pl <- ggplot(df_train,aes(Pclass,Age)) + geom_boxplot(aes(group=Pclass,fill=factor(Pclass),alpha=0.4))
 pl <- pl + scale_y_continuous(breaks = seq(min(0),max(80),by=2)) + theme_bw()
-#print(pl)
+print(pl)
 # the boxplot shows that average age in first class is 37, second class is 29, third class is 24 
 
 
@@ -63,7 +63,7 @@ fixed_ages <- impute_age(df_train$Age,df_train$Pclass)
 df_train$Age <- fixed_ages
 
 # check if the function was successful
-#print(missmap(df_train,main="Imputation Check", col = c("yellow","black"),legend = F))
+print(missmap(df_train,main="Imputation Check", col = c("yellow","black"),legend = F))
 
 # remove features that wont be used
 df_train <- select(df_train,-PassengerId,-Name,-Ticket,-Cabin)
