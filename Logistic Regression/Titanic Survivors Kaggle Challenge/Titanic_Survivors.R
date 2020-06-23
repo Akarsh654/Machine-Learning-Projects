@@ -93,7 +93,7 @@ fitted_results <- ifelse(fitted_probabilities>0.5,1,0)
 
 # Misclassification error and accuracy
 missClassError <- mean(fitted_results != final_test$Survived)
-print(1 - missClassError)
+print(1 - missClassError)  # this is the accuracy which is 0.7985075
 
 # Confusion Matrix
 print(table(final_test$Survived,fitted_probabilities>0.5))
