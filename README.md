@@ -15,6 +15,7 @@
 
 ### Logistic Regression
 
+<img src="<img src="https://slideplayer.com/slide/6053182/20/images/10/Simple+Linear+Regression+Model.jpg" width="400" height="300"/>" width="400" height="300"/>
 
 * [Adult Salary Class Prediction](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Logistic%20Regression/Adult%20Salary-Class%20Prediction/Adult_SalaryClass_Prediction.R)
 
@@ -25,21 +26,29 @@
 
 ### K Nearest Neighbours
 
+<img src="<img src="https://miro.medium.com/max/1182/1*U9dOThJUekSHmdXrsSbr_A.png" width="400" height="300"/>" width="400" height="300"/>
+
 * [KNN on Anonymous Data](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/K%20Nearest%20Neighbors/KNN%20on%20anonymous%20data/K%20Nearest%20Neighbors%20on%20anonymous%20data.ipynb)
 
 ### K Means Clustering
+
+<img src="<img src="https://thatware.co/wp-content/uploads/2020/04/k-mean-clustering-1.png" width="400" height="300"/>" width="400" height="300"/>
 
 * [Predicting if a university is Private or Public](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/K%20Means%20Clustering/Predicting%20if%20a%20university%20is%20Public%20or%20Private/Predicting%20if%20a%20university%20is%20Private%20or%20Public.ipynb)
 
 * [Neighborhoods in NYC](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/K%20Means%20Clustering/IBM%20Labs/Neighborhoods-New-York-py-v2.0.ipynb)
 
 ### Decision Trees and Random Forests
+
+<img src="<img src="https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm.png" width="400" height="300"/>" width="400" height="300"/>
  
 * [Loan Payment Prediciton](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Decision%20Trees%20and%20Random%20Forests/Loan%20Payment%20Prediction/Loan%20Payment%20Prediction%20.ipynb)
 
 * [Predicting if a patient has Kyphosis](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Decision%20Trees%20and%20Random%20Forests/Predicting%20Kyphosis%20Kaggle%20Challenge/Kyphosis%20Prediction.ipynb)
 
 ### Support Vector Machine
+
+<img src="<img src="https://static.packt-cdn.com/products/9781787125933/graphics/B07030_03_09.jpg" width="400" height="300"/>" width="400" height="300"/>
 
 * [Breast Cancer Prediction](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Support%20Vector%20Machine/Breast%20Cancer%20Classification/Breast%20Cancer%20Classification%20using%20SVM.ipynb)
 
