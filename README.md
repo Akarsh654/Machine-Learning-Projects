@@ -12,6 +12,7 @@
 
 * [Ecommerce Project](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Linear%20Regression/Ecommerce/Ecommerce%20Project.ipynb)
 
+-----
 
 ### Logistic Regression
 
@@ -23,12 +24,15 @@
 
 * [Titanic Survivors](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Logistic%20Regression/Titanic%20Survivors%20Kaggle%20Challenge/Titanic_Survivors.ipynb)
 
+-----
 
 ### K Nearest Neighbours
 
 <img src="https://miro.medium.com/max/1182/1*U9dOThJUekSHmdXrsSbr_A.png" width="400" height="300"/>
 
 * [KNN on Anonymous Data](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/K%20Nearest%20Neighbors/KNN%20on%20anonymous%20data/K%20Nearest%20Neighbors%20on%20anonymous%20data.ipynb)
+
+-----
 
 ### K Means Clustering
 
@@ -38,6 +42,8 @@
 
 * [Neighborhoods in NYC](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/K%20Means%20Clustering/IBM%20Labs/Neighborhoods-New-York-py-v2.0.ipynb)
 
+-----
+
 ### Decision Trees and Random Forests
 
 <img src="https://static.javatpoint.com/tutorial/machine-learning/images/random-forest-algorithm.png" width="400" height="300"/>
@@ -45,6 +51,8 @@
 * [Loan Payment Prediciton](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Decision%20Trees%20and%20Random%20Forests/Loan%20Payment%20Prediction/Loan%20Payment%20Prediction%20.ipynb)
 
 * [Predicting if a patient has Kyphosis](https://github.com/Akarsh654/Machine-Learning-Projects/blob/master/Decision%20Trees%20and%20Random%20Forests/Predicting%20Kyphosis%20Kaggle%20Challenge/Kyphosis%20Prediction.ipynb)
+
+-----
 
 ### Support Vector Machine
 
